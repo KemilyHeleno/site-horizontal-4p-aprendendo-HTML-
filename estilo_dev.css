@@ -1,0 +1,47 @@
+/* CSS comment...  */
+
+body {
+    background-color:
+        #000000;
+}
+#tudo_dev { 
+    width: 1200px;
+    height: auto;
+    background-color: #7ECBD5;
+
+}
+
+/* Divisão da área que mostrará a imagem de 350 x 300 pixels na esquerda e o texto ao lado direito, texto allinhado na esquerda e ao topo, junto com o topo da imagem.
+*/
+
+#principal_dev{
+    width: 1000px;
+    height: 210px;
+    float: center;
+    background-color: #fff000;
+}
+
+/* Primeira divisão para apresentar a imagem de 350 x 300 pixels
+   O float: left; é necessário para as div's se posicionarem a partir da esquerda, se não for usado as div's não se encaixam como planejado.
+*/
+
+#secundaria_dev{
+    width: 150px;
+    height: 160px;
+    float: left;
+    background-color: green;
+}
+
+/* Segunda divisão para apresentar a imagem de 850 x 310 pixels
+   O float: left; é necessário para as div's se posicionarem a partir da esquerda, se não for usado, as div's não se encaixam como planejado.
+*/
+
+#terciaria_dev{
+    width: 850px;
+    height: 160px;
+    float: left;
+    background-color: #86DF85;
+}
+p {
+    margin: 0px;
+}

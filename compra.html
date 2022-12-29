@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="pt-br">
+<!-- Deixa o arquivo com o formatação da lingua portuguesa, ou seja permite que eu coloque acentos nas letras sem dar bugs nelas-->
+         
+<head>
+        <meta charset="UTF-8">
+        <title> HYUNDAI IX35 - COMPRAR </title>
+    <style>
+        body {
+            width: 1200px;
+            background-color:gainsboro; /* muda a cor do site */
+            margin: 0 auto; /* remove a margem do site */
+        
+            
+        }
+        
+        #menu{
+            
+        }
+        
+        #menu ul{
+            margin: 0; /*remove a margem*/
+            background-color: black; /*altera a cor do menu*/
+            list-style: none; /* remove os marcadores*/
+        }
+        
+        #menu ul li{
+            display: inline; /*alinha o menu horizontalmente*/
+        }
+        
+        #menu ul li a{
+            padding: 10px 10px; /*distancia os tópicos do menu*/
+            display: inline-block; /*alinha as opções do menu*/
+            
+            color:white; /*altera a cor do texto do menu*/
+            text-decoration: none; /*remove o sublinhado do texto do menu*/
+        }
+        
+        #menu ul li a:hover{ /*muda a cor do texto ao passar o mouse em cima*/
+            color:gray;
+        } 
+       
+    </style>
+</head>
+    
+<body>
+    <div id = "menu"> 
+        <ul>
+            <li><a href="http://www.hyundai.com.br" target="_blank"><img src="Imagens/hyundai_logo.png"  height="23" width="120"></a></li>
+            <font face="arial" size="5">
+            <li><a href = "Home.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HOME</a></li>
+            <li><a href = "Dev.html">DESENVOLVEDORES</a></li>
+            <li><a href = "links.html">LINKS</a></li>
+            </font>
+        </ul>
+    </div>
+    <div>
+        <br><br><center><font face="arial" size="5"><h1><b>COMPRAR</b></h1></font></center><br><br><!--título da página-->
+        <hr>
+        <center><img src="Imagens/imgcompra.jpg" height="350" width="940"></center><!--imagem do painel -->
+        <hr>
+    </div>
+    <form method="post">
+    <center><font face="arial" size="5"><b>DADOS</b></font></center>
+    <br><br><br>
+    <font size="3" face="arial">
+    <center>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nome: <input type=text name="Nome" size="30" maxlenght="50" value="" placeholder="ex: João da Silva" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Endereço: <input type=text name="endereco" size="30" maxlenght="50" value="" required><br><br><br>&nbsp;&nbsp;&nbsp;E-mail: <input type=text name="email" size="30" maxlenght="50" value="" placeholder="ex: hyundai@gmail.com" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Celular: <input type=text name="celular" size="30" maxlenght="50" value="" placeholder="(xx) xxxx-xxxx" required>
+   </center>    
+    </font>
+    <br><br><br><hr>
+    <center><font face="arial" size="5"><b>CARRO</b></font></center>
+    <br><br><br>
+    
+    <center><font face="arial" size="4">Cor:</font>
+    <select>
+            <option value="Branco">Branco perolizado</option>
+            <option value="Cinza">Cinza metálico</option>
+            <option value="Prata">Prata metálico</option>
+            <option value="Preto">Preto metálico</option>
+    </select>
+        
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font face="arial" size="4">Combustível:</font>
+    <select>
+            <option value="Branco">Etanol</option>
+            <option value="Cinza">Flex (gasolina/etanol)</option>
+    </select>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font face="arial" size="4">Câmbio automático:</font>
+            <select>
+            <option value="nao">Não</option>
+            <option value="sim">Sim</option>
+    </select>
+        
+    </center>
+    <br><hr><center><font face="arial" size="5"><b>FORMA DE PAGAMENTO</b></font></center><br><br>
+    <center>
+    <div>
+  <input type="radio" id="huey" name="drone" value="huey"
+         checked>
+  <label for="huey">Depósito</label>
+
+
+
+  <input type="radio" id="dewey" name="drone" value="dewey">
+  <label for="dewey">Cartão</label>
+</div>
+        </center>
+    <br><hr><br><br>
+    <br><hr><center><font face="arial" size="5"><b>COMENTÁRIO</b></font></center><br><br><br>
+    <center>
+        <textarea name="comentario" rows="6" cols="60"></textarea><br><br>
+        <input type="submit" value="Enviar">         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type=reset value="Limpar">
+        
+        
+    </center>
+        </form>
+    <br><br><hr>
